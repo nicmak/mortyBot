@@ -1,6 +1,6 @@
-var http = require('http');
+const http = require('http');
 
-var server = new http.Server()
+const server = new http.Server()
 server.on('request', (req, res) => {
   res.end('You must construct additional pylons.');
 })
